@@ -15,6 +15,18 @@
       "id": "c49dd492057148859db7e2e7acd6a61b"
     }
   ],
+  "vars": {
+    "JWT_ISSUER": "auth-service",
+    "JWT_AUDIENCE": "auth-service-api",
+    "ALLOWED_ORIGINS": "https://mi-frontend.com",
+    "AUTH_BASE_PATH": "",
+    "VALID_ROLES": "owner,admin,member,viewer",
+    "MAX_FAILED_ATTEMPTS": "5",
+    "LOCKOUT_MINUTES": "15",
+    "DEFAULT_TENANT_PLAN": "basic",
+    "DEFAULT_TENANT_STATUS": "active",
+    "DEFAULT_MAX_USERS": "5"
+  },
   "observability": {
     "enabled": true
   }
