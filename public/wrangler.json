@@ -1,0 +1,15 @@
+{
+  "name": "posmin-auth-service",
+  "main": "src/worker.js",
+  "compatibility_date": "2026-02-06",
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "test-auth",
+      "database_id": "26062586-64f0-4b0b-90eb-09c7d3ba14fc"
+    }
+  ],
+  "observability": {
+    "enabled": true
+  }
+}
