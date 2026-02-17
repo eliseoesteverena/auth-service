@@ -9,6 +9,12 @@
       "database_id": "26062586-64f0-4b0b-90eb-09c7d3ba14fc"
     }
   ],
+  "kv_namespaces": [
+    {
+      "binding": "AUTH_RATE_LIMIT_KV",
+      "id": "c49dd492057148859db7e2e7acd6a61b"
+    }
+  ],
   "observability": {
     "enabled": true
   }
